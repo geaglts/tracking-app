@@ -1,0 +1,41 @@
+:root {
+    --primary-font: 'Rubik', sans-serif;
+    --color-dark: #393e46;
+    --color-green: #6d9886;
+    --color-white: #f7f7f7;
+    --color-red: #e97777;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+.button {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    padding: 0.8em 1em;
+    font-weight: 700;
+    color: var(--color-white);
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+
+.button:hover {
+    transition: all 350ms ease;
+    background-color: rgba(109, 152, 134, 0.2);
+}
+
+.link {
+    color: var(--color-white);
+    text-decoration: underline;
+    transition: all 250ms ease;
+}
+
+.link:hover {
+    transition: all 350ms ease;
+    color: var(--color-green);
+}
