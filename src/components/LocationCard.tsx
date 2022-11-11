@@ -21,7 +21,7 @@ function LocationCard({ location }: LocationCardProps) {
         const API_URL = `${path}?lat=${location.latitude}&lng=${location.longitude}&${username}`;
         const response = await fetch(API_URL);
         const data = await response.json();
-        console.log(data.postalCodes);
+        // console.log(data.postalCodes);
         const postalCodes = data.postalCodes.map((item: INearbyPostalCodes) => ({
             postalCode: item.postalCode,
             placeName: item.placeName,
