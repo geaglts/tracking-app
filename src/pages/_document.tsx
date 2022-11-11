@@ -11,7 +11,6 @@ export default function Document() {
                     rel="stylesheet"
                 />
                 <link rel="manifest" href="/manifest.json" />
-                <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
             </Head>
             <body>
                 <Main />
